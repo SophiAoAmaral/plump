@@ -29,6 +29,18 @@
   /* Footer */
   --color-footer-light: #C9BFB5;
   --color-footer-dark: #8A7E72;
+
+    --animate-marquee: marquee 20s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 @layer components {
@@ -39,3 +51,4 @@
     padding-inline: 1.5rem;
   }
 }
+

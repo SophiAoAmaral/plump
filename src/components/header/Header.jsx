@@ -7,7 +7,7 @@ export const Header = () => {
         <article className='text-center bg-charcoal text-off-white uppercase text-xs p-2 tracking-widest'>Frete grátis acima de R$ 99 · Amostra grátis em todo pedido</article>
         <nav className='container flex justify-between items-center p-1'>
             <div>
-                <img src={logo} alt="" className='w-45 cursor-pointer pb-2' />
+                <img src={logo} alt="" className='w-30 cursor-pointer p-2' />
             </div>
 
             <ul className='flex gap-5 items-center [&>*:not(:last-child):hover]:underline'>
