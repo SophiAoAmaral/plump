@@ -25,7 +25,7 @@ export const Home = () => {
         <span className="uppercase text-peach-dark text-sm  block text-center">
           Extrait de Pêche · 10% · Hydrating + Glow
         </span>
-        <h1 className="text-9xl w-6xl m-auto text-center py-3 font-semibold block">
+        <h1 className=" text-5xl md:text-9xl md:w-6xl m-auto text-center py-3 font-semibold block">
           Hidratação com brilho <span className="text-peach">de verdade.</span>
         </h1>
       </div>
@@ -34,29 +34,29 @@ export const Home = () => {
         <div>
           <img src={product} alt="" className="w-xl" />
         </div>
-        <div className="absolute top-20 left-40 text-end">
-          <p className=" uppercase font-bold ">Sem fragrância</p>
-          <p className='text-sm w-50 relative before:absolute before:left-15 before:top-12 before:bg-charcoal before:content-[""] before:w-35 before:h-0.5'>
+        <div className="absolute  top-8 -left-5 sm:top-10 sm:-left-0 md:top-20 md:left-40 text-end">
+          <p className=" uppercase font-bold  text-sm md:text-base ">Sem fragrância</p>
+          <p className='text-xs md:text-sm w-40 md:w-50 relative md:before:absolute before:left-15 before:top-12 before:bg-charcoal before:content-[""] before:w-35 before:h-0.5'>
             Formulação clínica, segura para pele sensível.
           </p>
         </div>
-        <div className="absolute bottom-25 left-40 text-end">
-          <p className=" uppercase font-bold text-2xl ">2%</p>
-          <p className="text-sm w-50">
+        <div className="absolute bottom-5 -left-9 sm:bottom-10 sm:-left-3 md:bottom-25 md:left-40 text-end">
+          <p className=" uppercase font-bold  md:text-2xl ">2%</p>
+          <p className=" text-xs md:text-sm w-40  md:w-50">
             Ácido hialurônico para preencher e suavizar
           </p>
         </div>
 
-        <div className="absolute bottom-25 right-40">
-          <p className="uppercase font-bold">30ml</p>
-          <p className=' text-sm w-50 relative before:absolute before:right-15 before:top-12 before:bg-charcoal before:content-[""] before:w-35 before:h-0.5'>
+        <div className="absolute bottom-5 -right-8 sm:bottom-10 sm:-right-3 md:bottom-25 md:right-40">
+          <p className="uppercase font-bold text-sm md:text-base">30ml</p>
+          <p className=' text-xs md:text-sm w-40 md:w-50 relative md:before:absolute before:right-15 before:top-12 before:bg-charcoal before:content-[""] before:w-35 before:h-0.5'>
             Conta-gotas de precisão, vidro fosco.
           </p>
         </div>
 
-        <div className="absolute top-20 right-40">
-          <p className=" uppercase font-bold  text-2xl  ">10%</p>
-          <p className=" text-sm w-50">
+        <div className="absolute top-10 -right-1 md:top-20 md:right-40">
+          <p className=" uppercase font-bold text-sm md:text-2xl  ">10%</p>
+          <p className=" text-xs md:text-sm w-40 md:w-50">
             Extrato de pêssego antioxidante, devolve viço.
           </p>
         </div>
