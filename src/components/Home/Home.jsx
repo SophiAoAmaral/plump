@@ -1,6 +1,7 @@
 import React from 'react'
 import product from '../../imgs/plumb-product.png'
 import { Carrousel } from '../Carrousel/carrousel';
+import { Link, Links } from 'react-router';
 
 const stats = [
   {
@@ -15,6 +16,33 @@ const stats = [
     value: '94%',
     text: 'notaram pele mais lisa'
   }
+];
+
+
+const list = [
+  {
+    id: '01',
+    title:'Formulação',
+    text:'Os quatro ativos, suas concentrações exatas e o porquê de cada um.',
+    links:'Ver formulação →',
+    component:'/formulaçao'
+  },
+  {
+    id: '02',
+    title:'Como usar',
+    text:'A rotina em 3 passos, manhã e noite, com dicas de aplicação.',
+    links:'Ver rotina →',
+    component:'/rotina'
+  },
+
+    {
+    id: '03',
+    title:'Comprar',
+    text:'Preço, parcelamento e garantia de 30 dias glow ou dinheiro de volta.',
+    links:'Comprar agora →',
+    component:'/comprar'
+  },
+
 ]
 
 export const Home = () => {
@@ -22,7 +50,7 @@ export const Home = () => {
     <section>
     <section className="container py-2.5">
       <div className="flex flex-col ">
-        <span className="uppercase text-peach-dark text-xs sm:text-sm  block text-center">
+        <span className="uppercase text-peach-dark text-xs sm:text-sm md:text-xl block text-center">
           Extrait de Pêche · 10% · Hydrating + Glow
         </span>
         <h1 className=" text-3xl sm:text-5xl md:text-9xl md:w-6xl m-auto text-center py-3 font-semibold block">
@@ -90,6 +118,28 @@ export const Home = () => {
 
     </section>
     <Carrousel/>
+
+    <main className='container mt-10 md:mt-20 flex flex-col gap-10'>
+      <div>
+        <span className='text-xs font-bold text-peach-dark uppercase tracking-widest'>Conheça o plump.</span>
+        <h2 className='text-4xl md:text-6xl py-2 md:py-4 font-bold md:w-200 '>Tudo o que você precisa saber.</h2>
+      </div>
+        <div className='flex flex-col md:flex-row'>
+          {
+            list.map((item)=>(
+              <div key={item.id} className='flex flex-col border border-[#E2DAD2] px-10 py-6'>
+                  <span className='text-peach font-bold font-xs py-2'>{item.id}</span>
+                  <h3 className='text-xl font-bold pb-2'>{item.title}</h3>
+                  <p className='text-text-secondary pb-2'>{item.text}</p>
+                  <Link to={item.component} className='font-bold hover:text-text-secondary hover:transition'>{item.links}</Link>
+              </div>
+            ))
+          }
+        </div>
+      
+    </main>
+
+
     </section>
   );
 }
