@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../imgs/plump-preto.png';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
@@ -16,7 +16,7 @@ export const Header = () => {
             <ul className='flex gap-3 text-sm md:text-base justify-center md:gap-5 items-center [&>*:not(:last-child):hover]:underline'>
                 <li><Link to='/'>Inicio</Link></li>
                 <li><Link to='/formulacao'>Formulação</Link></li>
-                <li><Link to='/uso' href="">Como Usar</Link></li>
+                <li><Link to='/uso'>Como Usar</Link></li>
                 <li><Link to='/comprar'>Comprar</Link></li>
                 <li className='border hidden md:inline md:py-2 md:px-3 hover:bg-charcoal hover:text-off-white hover:transition'><a href="">Carrinho</a></li>
             </ul>

@@ -1,7 +1,7 @@
 import React from 'react'
 import product from '../../imgs/plumb-product.png'
 import { Carrousel } from '../Carrousel/carrousel';
-import { Link, Links } from 'react-router';
+import { Link, Links } from 'react-router-dom';
 
 const stats = [
   {

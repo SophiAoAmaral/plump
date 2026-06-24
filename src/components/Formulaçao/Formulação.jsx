@@ -7,7 +7,7 @@ import image2 from '../../imgs/acido-hia.png';
 import image3 from '../../imgs/pantenol.png';
 import image4 from '../../imgs/pele-2.png';
 import contaGotas from '../../imgs/conta-gotas.png'
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 
 
