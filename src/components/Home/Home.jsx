@@ -60,7 +60,7 @@ export const Home = () => {
 
       <div className="flex flex-col items-center relative">
         <div>
-          <img src={product} alt="" className="w-xl" />
+          <img src={product} alt="" className="w-xl animate-float" />
         </div>
         <div className="absolute  top-11 -left-1 sm:top-10 sm:-left-0 md:top-20 md:left-70 text-end">
           <p className=" uppercase font-bold  text-xs sm:text-sm md:text-base ">Sem fragrância</p>
@@ -93,12 +93,12 @@ export const Home = () => {
       <div className="flex justify-center mt-5 mb-5">
         <ul className="flex  flex-col md:flex-row  gap-2 items-center">
           <li>
-            <a
-              href=""
+            <Link 
+              to='/comprar'
               className=" py-3 px-4 bg-charcoal text-off-white text-sm"
             >
               Comprar - R$89
-            </a>
+            </Link>
           </li>
           <li className="text-xs text-amber-300 mt-2 md:mt-0">4.9 ★★★★★  </li>
           <li className="text-xs"> 2.341 avaliações</li>
