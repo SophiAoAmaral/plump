@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 import passo1 from '../../imgs/passo1.png';
 import passo2 from '../../imgs/passo2.png';
 import passo3 from '../../imgs/passo3.png';
@@ -95,8 +95,10 @@ export const ComoUsar = () => {
             </div>
         </div>
 
-
-
+        <article className='text-center flex flex-col items-center justify-center'>
+            <h1  className=' text-2xl md:text-5xl mt-10 font-bold mb-2'>Comece sua rotina hoje.</h1>
+            <Link to='/comprar' className='inline-block w-auto text-center bg-charcoal text-off-white py-2 px-4 mt-2 rounded-2xl hover:bg-charcoal-hover '>Comprar — R$ 89</Link>
+        </article>
     </section>
 
 

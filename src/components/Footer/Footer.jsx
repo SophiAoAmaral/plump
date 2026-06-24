@@ -3,7 +3,7 @@ import logo from '../../imgs/plump-branco.png'
 
 export const Footer = () => {
   return (
-    <footer className='bg-charcoal mt-10 md:mt-30  font-sans'>
+    <footer className='bg-charcoal mt-10 md:mt-20  font-sans'>
         <main className='container flex flex-col md:flex-row justify-between pt-10 gap-5 md:gap-0 pb-6 md:items-center'>
             <div className='flex flex-col text-center'>
                 <img src={logo} alt="" className='w-40 self-center'/>
