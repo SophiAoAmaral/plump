@@ -1,12 +1,13 @@
 import { Route, Routes } from "react-router-dom"
 import { Footer } from "./components/Footer/Footer"
 import { Header } from "./components/header/Header"
-import { Home } from "./components/Home/Home"
-import { Formulação } from "./components/Formulaçao/Formulação"
-import { ComoUsar } from "./components/ComoUsar/ComoUsar"
-import { Comprar } from "./components/Comprar/Comprar"
 import { useState } from "react"
+import { Home } from "./pages/Home/Home"
+import { Formulação } from "./pages/Formulaçao/Formulação"
+import { ComoUsar } from "./pages/ComoUsar/ComoUsar"
+import { Comprar } from "./pages/Comprar/Comprar"
 import { Finalizar } from "./components/Finalizar/Finalizar"
+
 
 
 
