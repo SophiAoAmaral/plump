@@ -18,7 +18,7 @@ export const Header = ({count, setCount}) => {
                 <li><Link to='/formulacao'>Formulação</Link></li>
                 <li><Link to='/uso'>Como Usar</Link></li>
                 <li><Link to='/comprar'>Comprar</Link></li>
-                <li className='md:border inline md:py-2 md:px-3 hover:bg-charcoal hover:text-off-white hover:transition'><a href="">Carrinho <span className='border rounded-4xl p-[5px] md:py-1 md:px-2 text-center bg-peach text-off-white'>{count}</span></a></li>
+                <Link to='/finalizar' className='md:border inline md:py-2 md:px-3 hover:bg-charcoal hover:text-off-white hover:transition'><a href="">Carrinho <span className='border rounded-4xl p-[5px] md:py-1 md:px-2 text-center bg-peach text-off-white'>{count}</span></a></Link>
             </ul>
         </nav>
     </header>

@@ -32,6 +32,7 @@ export const Comprar = ({count, setCount}) => {
             >
               Adicionar no carrinho
             </button>
+            <Link to='/finalizar' className='text-center py-2 px-2 border mt-2 ' onClick={() => setCount(count + 1)}>Comprar Agora</Link>
         <span className='text-center text-xs mb-5 pb-7 border-peach-dark border-b mt-2 text-text-secondary '>Estoque limitado</span>
         <ul className='flex flex-wrap gap-5 text-text-light text-xs items-center justify-center md:items-start '>
           <li>Vegano</li>

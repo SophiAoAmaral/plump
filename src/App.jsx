@@ -6,6 +6,7 @@ import { Formulação } from "./components/Formulaçao/Formulação"
 import { ComoUsar } from "./components/ComoUsar/ComoUsar"
 import { Comprar } from "./components/Comprar/Comprar"
 import { useState } from "react"
+import { Finalizar } from "./components/Finalizar/Finalizar"
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/formulacao" element={<Formulação />} />
         <Route path="/uso" element={<ComoUsar/>} />
         <Route path="/comprar" element={<Comprar count={count} setCount={setCount}/> }></Route>
+        <Route path="/finalizar" element={<Finalizar count={count} setCount={setCount} />} ></Route>
       </Routes>
 
       <Footer/>
