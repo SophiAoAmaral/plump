@@ -1,6 +1,6 @@
 **Plump - Skincare Landing Page**
 
-Uma landing page moderna e responsiva para divulgação de um sérum facial premium, desenvolvida com React, Vite, Tailwind CSS e React Router DOM.
+Uma pagina para divulgação de um sérum facial premium, desenvolvida com React, Vite, Tailwind CSS e React Router DOM.
 
 Sobre o Projeto
 
