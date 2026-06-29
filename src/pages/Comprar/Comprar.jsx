@@ -27,7 +27,7 @@ export const Comprar = ({count, setCount}) => {
         </div>
         <span className='text-text-muted text-sm mb-4'>ou 3x de R$ 29,67 sem juros</span>
             <button 
-            className='md:block bg-charcoal text-center text-off-white py-2 px-1 '
+            className='md:block bg-charcoal text-center text-off-white py-2 px-1 cursor-pointer'
             onClick={handleClick}
             >
               Adicionar no carrinho

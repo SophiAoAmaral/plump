@@ -25,14 +25,14 @@ const list = [
     title:'Formulação',
     text:'Os quatro ativos, suas concentrações exatas e o porquê de cada um.',
     links:'Ver formulação →',
-    component:'/formulaçao'
+    component:'/formulacao'
   },
   {
     id: '02',
     title:'Como usar',
     text:'A rotina em 3 passos, manhã e noite, com dicas de aplicação.',
     links:'Ver rotina →',
-    component:'/rotina'
+    component:'/uso'
   },
 
     {
